@@ -2,7 +2,9 @@
 
 An offline-first Android learning companion for the [Machine Learning Club](https://machinelearning-club.github.io/) at Seven Hills International School.
 
-**Status:** project setup / pre-release. The repository is being prepared for an Android internal-testing build; it is not yet a published app.
+**Live public browser preview:** https://bluebird-studio.github.io/ml-club-companion/
+
+**Status:** Flutter Web preview deployed and tested on desktop and mobile in Chromium. The Android release, signed AAB and Play upload are separate outstanding tasks.
 
 ## Product
 
@@ -44,7 +46,9 @@ The primary course reference is maintained separately at https://machinelearning
 
 ## Development status
 
-The previous 0.1.0 source prototype is available as a separate project artifact from the planning discussion. Do not treat the Play release, signed AAB, tests, or a complete app as finished until tracked and verified in this repository.
+**Try it:** [Open public Flutter Web preview](https://bluebird-studio.github.io/ml-club-companion/). It requires no login or installation. Local progress remains inside the browser/device. The first load requires internet access.
+
+The app's shared Dart source now lives in `lib/` with functional Learn, Explore, Practice and Progress screens. The `Flutter Web Preview` workflow runs Dart analysis, unit/widget tests, builds the web release and deploys to GitHub Pages. The Android runner, Android QA, signed AAB and Play upload are not yet complete.
 
 ## Contributing
 
